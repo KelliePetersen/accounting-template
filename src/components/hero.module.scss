@@ -10,4 +10,31 @@
   left: 250px;
   top: 50%;
   transform: translateY(-50%);
+  color: white;
+  max-width: 550px;
+}
+
+.heading {
+  font-size: 3.5rem;
+  margin-bottom: 50px;
+}
+
+.button {
+  display: block;
+  position: relative;
+  padding: 20px 30px;
+  width: max-content;
+  font-size: 1.125rem;
+  letter-spacing: 1px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 100%;
+    background-color: hotpink;
+    z-index: -1;
+  }
 }
