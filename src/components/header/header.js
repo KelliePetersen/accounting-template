@@ -12,11 +12,11 @@ const Header = ({ siteTitle }) => (
     </div>
     <nav className={styles.nav}>
       <ul className={styles.nav__list}>
-        <li>About</li>
-        <li>Services</li>
-        <li>Features</li>
-        <li>Location</li>
-        <li>Contact</li>
+        <li><Link to="/#about">About</Link></li>
+        <li><Link to="/#services">Services</Link></li>
+        <li><Link to="/#features">Features</Link></li>
+        <li><Link to="/#location">Location</Link></li>
+        <li><Link to="/#contact">Contact</Link></li>
       </ul>
     </nav>
     <div>
