@@ -10,8 +10,8 @@ const Header = ({ siteTitle }) => (
         {siteTitle}
       </Link>
     </div>
-    <nav>
-      <ul>
+    <nav className={styles.nav}>
+      <ul className={styles.nav__list}>
         <li>About</li>
         <li>Services</li>
         <li>Features</li>
