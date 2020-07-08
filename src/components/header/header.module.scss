@@ -5,15 +5,16 @@
   align-items: center;
   width: 100%;
   height: 100px;
+  z-index: 10;
   
   &::after {
     content: "";
     position: absolute;
     bottom: 0px;
-    width: 90%;
-    height: 1px;
+    width: 100%;
+    height: 2px;
     background-color: white;
-    opacity: 0.5;
+    opacity: 0.25;
   }
 }
 
@@ -21,11 +22,25 @@
   width: 40%;
   max-width: 600px;
   
-  &__list {
-    margin: 0;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+}
+
+.list {
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.linkbox {
+  width: 250px;
+  height: 100%;
+  display: flex;
+  & > a {
+    margin: auto;
   }
+}
+
+.contact {
+  color: hotpink;
 }

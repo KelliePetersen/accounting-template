@@ -5,13 +5,13 @@ import styles from "./header.module.scss"
 
 const Header = ({ siteTitle }) => (
   <header className={styles.header}>
-    <div>
+    <div className={styles.linkbox}>
       <Link to="/#">
         {siteTitle}
       </Link>
     </div>
     <nav className={styles.nav}>
-      <ul className={styles.nav__list}>
+      <ul className={styles.list}>
         <li><Link to="/#about">About</Link></li>
         <li><Link to="/#services">Services</Link></li>
         <li><Link to="/#features">Features</Link></li>
@@ -19,8 +19,8 @@ const Header = ({ siteTitle }) => (
         <li><Link to="/#contact">Contact</Link></li>
       </ul>
     </nav>
-    <div>
-      <Link to="/#contact">
+    <div className={styles.linkbox}>
+      <Link className={styles.contact} to="/#contact">
         Say hello.
       </Link>
     </div>
