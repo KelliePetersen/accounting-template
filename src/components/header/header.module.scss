@@ -1,6 +1,17 @@
 .header {
   position: fixed;
+  display: flex;
+  justify-content: space-between;
   width: 100%;
   height: 110px;
-  background-color: #fff;
+  
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    width: 90%;
+    height: 1px;
+    background-color: white;
+    opacity: 0.5;
+  }
 }
