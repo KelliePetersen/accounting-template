@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Heron Bookkeeping`,
+    description: `Heron Bookkeeping provides small businesses services in accounting, financial planning, taxation, auditing, superannuation, and general business advice.`,
+    author: `Kellie Petersen`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
