@@ -60,3 +60,10 @@
   font-size: 0.875rem;
   font-weight: bold;
 }
+
+.active {
+
+  &::after {
+    display: none;
+  }
+}

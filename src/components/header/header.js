@@ -1,38 +1,43 @@
-import PropTypes from "prop-types"
-import React from "react"
+import React, { useState, useEffect } from "react"
 import { Link } from "gatsby"
 import styles from "./header.module.scss"
 
-const Header = ({ siteTitle }) => (
-  <header className={styles.header}>
-    <div className={styles.linkbox}>
-      <Link className={styles.logo} to="/#">
-        Heron<span className={styles.span}>.AU</span>
-      </Link>
-    </div>
-    <nav className={styles.nav}>
-      <ul className={styles.list}>
-        <li><Link to="/#about">About</Link></li>
-        <li><Link to="/#services">Services</Link></li>
-        <li><Link to="/#features">Features</Link></li>
-        <li><Link to="/#location">Location</Link></li>
-        <li><Link to="/#contact">Contact</Link></li>
-      </ul>
-    </nav>
-    <div className={styles.linkbox}>
-      <Link className={styles.contact} to="/#contact">
-        Say hello.
-      </Link>
-    </div>
-  </header>
-)
+const Header = ({ siteTitle }) => {
+  const [navStyle, setNavStyle] = useState(false)
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
+  useEffect(() => {
+    document.addEventListener('scroll', () => {
+      if (window.scrollY >= 500) {
+        setNavStyle(true)
+      } else {
+        setNavStyle(false)
+      }
+    })
+  })
+  
+  return (
+    <header className={`${styles.header} ${navStyle && styles.active}`}>
+      <div className={styles.linkbox}>
+        <Link className={styles.logo} to="/#">
+          Heron<span className={styles.span}>.AU</span>
+        </Link>
+      </div>
+      <nav className={styles.nav}>
+        <ul className={styles.list}>
+          <li><Link to="/#about">About</Link></li>
+          <li><Link to="/#services">Services</Link></li>
+          <li><Link to="/#features">Features</Link></li>
+          <li><Link to="/#location">Location</Link></li>
+          <li><Link to="/#contact">Contact</Link></li>
+        </ul>
+      </nav>
+      <div className={styles.linkbox}>
+        <Link className={styles.contact} to="/#contact">
+          Say hello.
+        </Link>
+      </div>
+    </header>
+  )
 }
 
 export default Header
