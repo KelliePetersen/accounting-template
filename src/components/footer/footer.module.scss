@@ -1,6 +1,31 @@
 .footer {
   width: 100%;
-  color: #666;
-  font-size: 0.75rem;
+  padding: 100px 250px;
+  color: white;
   font-family: sans-serif;
+  background-color: #222;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rightcontainer {
+  text-align: right;
+}
+
+.copyright {
+  font-size: 0.75rem;
+}
+
+.nav {
+  width: 500px;
+  margin: 0 0 0 auto;
+}
+
+.list {
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 0.875rem;
 }
