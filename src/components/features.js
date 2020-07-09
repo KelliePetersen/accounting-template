@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './features.module.scss'
 
 const Features = () => (
-  <section className={styles.features}>
+  <section className={styles.features} id='features'>
     <div className={styles.wrapper}>
       <h2 className={styles.heading}>Our features.</h2>
       <div className={styles.grid}>
