@@ -17,7 +17,7 @@ const Header = ({ siteTitle }) => {
   
   return (
     <header className={`${styles.header} ${navStyle && styles.active}`}>
-      <div className={styles.linkbox}>
+      <div className={`${styles.linkbox} ${styles.logobox}`}>
         <Link className={styles.logo} to="/#">
           Heron<span className={styles.span}>.AU</span>
         </Link>
@@ -31,7 +31,7 @@ const Header = ({ siteTitle }) => {
           <li><Link to="/#contact">Contact</Link></li>
         </ul>
       </nav>
-      <div className={styles.linkbox}>
+      <div className={`${styles.linkbox} ${styles.contactbox}`}>
         <Link className={styles.contact} to="/#contact">
           Say hello.
         </Link>

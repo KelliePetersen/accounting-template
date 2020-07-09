@@ -62,8 +62,26 @@
 }
 
 .active {
+  background-color: white;
+  box-shadow: 2px 2px 10px #e5e5e5;
 
   &::after {
     display: none;
+  }
+
+  .list a {
+    color: #4d4d4d;
+  }
+
+  .logobox {
+    background-color: #1a1a1a;
+  }
+
+  .contactbox {
+    background-color: #ff0066;
+  }
+
+  .contact {
+    color: white;
   }
 }
