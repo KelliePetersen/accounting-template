@@ -6,8 +6,8 @@ import styles from "./header.module.scss"
 const Header = ({ siteTitle }) => (
   <header className={styles.header}>
     <div className={styles.linkbox}>
-      <Link to="/#">
-        {siteTitle}
+      <Link className={styles.logo} to="/#">
+        Heron<span className={styles.span}>.AU</span>
       </Link>
     </div>
     <nav className={styles.nav}>

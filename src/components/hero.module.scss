@@ -23,6 +23,7 @@
 .heading {
   font-size: 3.5rem;
   margin-bottom: 50px;
+  line-height: 1.25;
 }
 
 .button {
@@ -30,7 +31,7 @@
   position: relative;
   padding: 20px 30px;
   width: max-content;
-  font-size: 1.125rem;
+  font-size: 1rem;
   letter-spacing: 1px;
 
   &::before {
@@ -40,7 +41,7 @@
     left: 0;
     width: 25%;
     height: 100%;
-    background-color: hotpink;
+    background-color: #ff0066;
     z-index: -1;
     transition: transform 0.5s;
     transform-origin: left;

@@ -4,18 +4,31 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 100px;
+  height: 80px;
   z-index: 10;
+  letter-spacing: 1px;
   
   &::after {
     content: "";
     position: absolute;
     bottom: 0px;
-    width: 100%;
-    height: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    height: 1px;
     background-color: white;
     opacity: 0.25;
   }
+}
+
+.logo {
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+.span {
+  font-family: "Cabin";
+  font-weight: 400;
 }
 
 .nav {
@@ -42,5 +55,5 @@
 }
 
 .contact {
-  color: hotpink;
+  color: #ff0066;
 }
