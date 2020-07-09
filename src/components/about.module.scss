@@ -1,8 +1,7 @@
 .about {
-  width: 100%;
-  padding: 250px;
+  margin: 250px;
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 40% calc(60% - 60px);
   column-gap: 60px;
 }
 

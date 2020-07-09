@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react"
 import { Link } from "gatsby"
 import styles from "./header.module.scss"
 
-const Header = ({ siteTitle }) => {
+const Header = () => {
   const [navStyle, setNavStyle] = useState(false)
 
   useEffect(() => {
