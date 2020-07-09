@@ -9,8 +9,8 @@ const Slideshow = () => (
       <Image />
     </div>
     <div className={styles.nav}>
-      <div className={styles.leftarrow}>&larr;</div>
-      <div className={styles.rightarrow}>&rarr;</div>
+      <button className={styles.leftarrow}>&larr;</button>
+      <button className={styles.rightarrow}>&rarr;</button>
     </div>
   </div>
 )
