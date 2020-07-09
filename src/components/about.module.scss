@@ -1,4 +1,30 @@
 .about {
   width: 100%;
   padding: 250px;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  column-gap: 60px;
+}
+
+.header {
+  font-size: 3rem;
+  line-height: 1.25;
+  margin-bottom: 50px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  column-gap: 20px;
+  height: 225px;
+  margin-bottom: 20px;
+  width: 100%;
+
+  & > div {
+    background-color: #333;
+  }
+}
+
+.grid2 {
+  grid-template-columns: 1fr 1fr;
 }
