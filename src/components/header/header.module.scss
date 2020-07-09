@@ -21,6 +21,13 @@
   }
 }
 
+.header, .header::after, .linkbox {
+  transition: background 0.2s;
+}
+.list, .contact {
+  transition: color 0.2s;
+}
+
 .nav {
   width: 40%;
   max-width: 600px;
@@ -34,6 +41,7 @@
   flex-direction: row;
   justify-content: space-between;
   font-size: 0.875rem;
+  transition: color 0.5s;
 }
 
 .linkbox {
