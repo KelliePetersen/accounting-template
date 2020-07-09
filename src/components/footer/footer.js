@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import styles from "./footer.module.scss"
 
 const Footer = ({ siteTitle }) => (
-  <footer>
+  <footer className={styles.footer}>
     © Copyright {siteTitle} {new Date().getFullYear()}. All rights reserved.
   </footer>
 )
