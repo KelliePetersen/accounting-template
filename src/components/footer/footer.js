@@ -6,8 +6,8 @@ import styles from "./footer.module.scss"
 const Footer = ({ siteTitle }) => (
   <footer className={styles.footer}>
     <div styles className={styles.leftcontainer}>
-      <h4>Heron<span>.AU</span></h4>
-      <p className={styles.copyright}>© Copyright {siteTitle} {new Date().getFullYear()}. All rights reserved.</p>
+      <Link className={styles.logo} to="#">Heron<span className={styles.span}>.AU</span></Link>
+      <p className={styles.copyright}>© {siteTitle} {new Date().getFullYear()}.</p>
     </div>
     <div className={styles.rightcontainer}>
       <nav className={styles.nav}>
@@ -20,8 +20,8 @@ const Footer = ({ siteTitle }) => (
         </ul>
       </nav>
       <p className={styles.text}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam neque lorem, 
-        vulputate vitae ullamcorper vitae, mattis finibus enim.</p>
-      <button className={styles.topbutton}>&uarr;</button>
+        vulputate mattis finibus enim.</p>
+      <Link className={styles.toplink} to="#">&uarr;</Link>
     </div>
   </footer>
 )

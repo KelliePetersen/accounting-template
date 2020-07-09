@@ -8,12 +8,30 @@
   justify-content: space-between;
 }
 
+.leftcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .rightcontainer {
   text-align: right;
 }
 
+.logo {
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+.span {
+  font-family: "Cabin";
+  font-weight: 400;
+}
+
 .copyright {
   font-size: 0.75rem;
+  margin: 0;
+  color: #999;
 }
 
 .nav {
@@ -28,4 +46,17 @@
   flex-direction: row;
   justify-content: space-between;
   font-size: 0.875rem;
+}
+
+.text {
+  font-size: 0.875rem;
+  color: #999;
+  margin: 20px 0 25px auto;
+  max-width: 450px;
+}
+
+.toplink {
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
 }
