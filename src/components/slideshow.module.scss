@@ -1,8 +1,11 @@
 .slideshow {
   position: relative;
-  margin: 150px 250px 0;
-  width: calc(100% - 500px);
-  height: 550px;
+  margin: 150px auto 0;
+  min-width: calc(100% - 500px);
+  width: 1000px;
+  max-width: 80%;
+  height: 75vh;
+  max-height: 550px;
   background-color: #333;
 }
 
@@ -25,9 +28,14 @@
   border: transparent;
   cursor: pointer;
 
-  &:hover, &:focus {
+  &:hover {
     background-color: #ff0066;
     color: white;
+  }
+
+  &:focus {
+    outline-color: #ff0066;
+    outline-width: 3px;
   }
 }
 
