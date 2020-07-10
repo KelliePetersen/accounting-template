@@ -1,6 +1,14 @@
+@import './mixins.scss';
+
 .contact {
-  margin: 100px 0 200px;
   padding-top: 50px;
+  margin-bottom: 100px;
+  @include respond-to('tablet-large') {
+    margin: 50px 0 150px;
+  }
+  @include respond-to('desktop') {
+    margin: 100px 0 200px;
+  }
 }
 
 .wrapper {
