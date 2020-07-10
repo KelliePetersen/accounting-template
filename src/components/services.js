@@ -3,8 +3,8 @@ import styles from "./services.module.scss"
 
 const Services = () => {
   return (
-    <section className={styles.services} id='services'>
-      <div className={styles.wrapper}>
+    <section className="section" id='services'>
+      <div className="wrapper">
         <h2>Our Services.</h2>
         <div className={styles.grid}>
           <div>

@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './contactForm.module.scss'
 
 const ContactForm = () => (
-  <form className={styles.form} method="post">
+  <form method="post">
     <label htmlFor="name">Full name
       <input className={styles.input} type="text" name="name" id="name" required/>
     </label>

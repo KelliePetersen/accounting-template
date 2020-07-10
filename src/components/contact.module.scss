@@ -11,20 +11,6 @@
   }
 }
 
-.wrapper {
-  text-align: center;
-  margin: 0 auto;
-  width: 80%;
-  @include respond-to('desktop') {
-    width: 1000px;
-    max-width: 100%;
-  }
-  @include respond-to('widescreen') {
-    margin: 0 250px;
-    width: auto;
-  }
-}
-
 .heading {
   @include respond-to('tablet-large') {
     margin-bottom: 80px;

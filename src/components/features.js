@@ -3,7 +3,7 @@ import styles from './features.module.scss'
 
 const Features = () => (
   <section className={styles.features} id='features'>
-    <div className={styles.wrapper}>
+    <div className="wrapper">
       <h2>Our features.</h2>
       <div className={styles.grid}>
         <div className={styles.card}>

@@ -2,8 +2,8 @@ import React from 'react'
 import styles from "./about.module.scss"
 
 const About = () => (
-    <section className={styles.about} id="about">
-      <div className={styles.wrapper}>
+    <section className="section"id="about">
+      <div className={`wrapper ${styles.wrapper}`}>
         <div>
           <h2>We've been in this game for 40 years.</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam neque lorem, vulputate vitae ullamcorper

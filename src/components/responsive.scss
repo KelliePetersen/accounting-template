@@ -9,3 +9,26 @@ h2 {
     font-size: 3rem;
   }
 }
+
+.section {
+  padding-top: 100px;
+  @include respond-to('tablet-large') {
+    padding-top: 125px;
+  }
+  @include respond-to('desktop') {
+    margin-top: 125px;
+  }
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 80%;
+  @include respond-to('desktop') {
+    width: 1000px;
+    max-width: 100%;
+  }
+  @include respond-to('widescreen') {
+    margin: 0 250px;
+    width: auto;
+  }
+}
