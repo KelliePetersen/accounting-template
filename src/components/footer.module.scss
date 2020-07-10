@@ -1,17 +1,33 @@
+@import './mixins.scss';
+
 .footer {
   width: 100%;
-  padding: 100px 250px;
+  padding: 50px 10%;
   color: white;
   font-family: sans-serif;
   background-color: #222;
+  @include respond-to('tablet-large') {
+    padding: 100px 10%;
+  }
+  @include respond-to('desktop') {
+    padding: 100px 250px;
+  }
+}
+
+.wrapper {
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
+  @include respond-to('tablet-large') {
+    justify-content: space-between;
+  }
 }
 
 .leftcontainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  display: none;
+  @include respond-to('tablet-large') {
+    display: block;
+  }
 }
 
 .rightcontainer {
@@ -35,8 +51,12 @@
 }
 
 .nav {
-  width: 500px;
+  display: none;
+  width: 450px;
   margin: 0 0 0 auto;
+  @include respond-to('tablet-small') {
+    display: block;
+  }
 }
 
 .list {
