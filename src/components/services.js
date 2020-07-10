@@ -4,7 +4,7 @@ import styles from "./services.module.scss"
 const Services = () => {
   return (
     <section className={styles.services} id='services'>
-      <h2 className={styles.heading}>Our Services.</h2>
+      <h2>Our Services.</h2>
       <div className={styles.grid}>
         <div>
           <div className={styles.icon}></div>

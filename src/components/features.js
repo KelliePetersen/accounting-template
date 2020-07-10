@@ -4,7 +4,7 @@ import styles from './features.module.scss'
 const Features = () => (
   <section className={styles.features} id='features'>
     <div className={styles.wrapper}>
-      <h2 className={styles.heading}>Our features.</h2>
+      <h2>Our features.</h2>
       <div className={styles.grid}>
         <div className={styles.card}>
           <div className={styles.icon}></div>
