@@ -60,3 +60,9 @@
   font-size: 1.5rem;
   cursor: pointer;
 }
+
+.logo, .toplink, .list a {
+  &:hover, &:focus {
+    color: #ff0066;
+  }
+}

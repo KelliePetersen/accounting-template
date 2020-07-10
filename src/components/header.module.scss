@@ -1,3 +1,5 @@
+@import './mixins.scss';
+
 .header {
   position: fixed;
   display: flex;
@@ -29,9 +31,12 @@
 }
 
 .nav {
+  display: none;
   width: 40%;
   max-width: 600px;
-  
+  @include respond-to('tablet-large') {
+    display: block;
+  }
 }
 
 .list {
@@ -54,6 +59,14 @@
   display: flex;
 }
 
+.logobox:hover > .logo, .logobox:focus > .logo {
+  color: #ff0066;
+}
+
+.contactbox:hover > .contact, .contactbox:focus > .contact {
+  color: white;
+}
+
 .logo {
   font-family: "Montserrat";
   font-weight: 900;
@@ -71,6 +84,8 @@
   font-weight: bold;
   margin: auto;
 }
+
+
 
 .active {
   background-color: white;
@@ -90,13 +105,29 @@
 
   .logobox {
     background-color: #1a1a1a;
+
+    &:hover, &:focus {
+      background-color: #ff0066;
+      & > .logo {
+        color: white;
+      }
+    }
   }
 
   .contactbox {
-    background-color: #ff0066;
+    @include respond-to('tablet-large') {
+      background-color: #ff0066;
+  
+      &:hover, &:focus {
+        background-color: #1a1a1a;
+      }
+    }
   }
 
   .contact {
-    color: white;
+    color: #1a1a1a;
+    @include respond-to('tablet-large') {
+      color: white;
+    }
   }
 }

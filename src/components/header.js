@@ -31,7 +31,7 @@ const Header = () => {
           <li><Link to="/#contact">Contact</Link></li>
         </ul>
       </nav>
-      <Link className={`${styles.linkbox} ${styles.contactbox}`} to="/#">
+      <Link className={`${styles.linkbox} ${styles.contactbox}`} to="/#contact">
         <span className={styles.contact}>
           Say hello.
         </span>

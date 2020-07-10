@@ -24,6 +24,11 @@
   font-size: 1.5rem;
   border: transparent;
   cursor: pointer;
+
+  &:hover, &:focus {
+    background-color: #ff0066;
+    color: white;
+  }
 }
 
 .leftarrow {
@@ -31,5 +36,6 @@
 }
 
 .rightarrow {
-  background-color: #ff0066;
+  background-color: #1a1a1a;
+  color: white;
 }
