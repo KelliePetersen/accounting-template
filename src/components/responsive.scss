@@ -5,7 +5,7 @@ h2 {
   @include respond-to('tablet-small') {
     font-size: 2.5rem;
   }
-  @include respond-to('tablet') {
+  @include respond-to('tablet-large') {
     font-size: 3rem;
   }
 }
