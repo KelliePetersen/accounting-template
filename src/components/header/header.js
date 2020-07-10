@@ -17,11 +17,11 @@ const Header = () => {
   
   return (
     <header className={`${styles.header} ${navStyle && styles.active}`}>
-      <div className={`${styles.linkbox} ${styles.logobox}`}>
-        <Link className={styles.logo} to="/#">
+      <Link className={`${styles.linkbox} ${styles.logobox}`} to="/#">
+        <span className={styles.logo}>
           Heron<span className={styles.span}>.AU</span>
-        </Link>
-      </div>
+        </span>
+      </Link>
       <nav className={styles.nav}>
         <ul className={styles.list}>
           <li><Link to="/#">Home</Link></li>
@@ -31,11 +31,11 @@ const Header = () => {
           <li><Link to="/#contact">Contact</Link></li>
         </ul>
       </nav>
-      <div className={`${styles.linkbox} ${styles.contactbox}`}>
-        <Link className={styles.contact} to="/#contact">
+      <Link className={`${styles.linkbox} ${styles.contactbox}`} to="/#">
+        <span className={styles.contact}>
           Say hello.
-        </Link>
-      </div>
+        </span>
+      </Link>
     </header>
   )
 }
