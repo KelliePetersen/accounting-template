@@ -11,10 +11,11 @@
 }
 
 .wrapper {
-  margin: 0 auto;
+  margin-left: 10%;
   width: 80%;
   max-width: 550px;
   @include respond-to('desktop') {
+    margin: 0 auto;
     width: 1000px;
     max-width: 100%;
     display: grid;
