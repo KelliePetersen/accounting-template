@@ -9,7 +9,7 @@ const Header = () => {
     let windowState = () => window.scrollY ? setNavStyle(true) : setNavStyle(false)
     windowState();
     document.addEventListener('scroll', windowState)
-  })
+  }, [])
   
   return (
     <header className={`${styles.header} ${navStyle && styles.active}`}>
