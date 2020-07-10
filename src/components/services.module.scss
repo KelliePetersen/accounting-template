@@ -25,9 +25,17 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
-  margin-top: 100px;
   column-gap: 60px;
+  row-gap: 60px;
+  margin-top: 60px;
+  max-width: 350px;
+  @include respond-to('tablet-small') {
+    grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+    max-width: 100%;
+  }
+  @include respond-to('tablet-large') {
+    margin-top: 80px;
+  }
 }
 
 .icon {
