@@ -6,13 +6,9 @@ const Header = () => {
   const [navStyle, setNavStyle] = useState(false)
 
   useEffect(() => {
-    document.addEventListener('scroll', () => {
-      if (window.scrollY >= 500) {
-        setNavStyle(true)
-      } else {
-        setNavStyle(false)
-      }
-    })
+    let windowState = () => window.scrollY ? setNavStyle(true) : setNavStyle(false)
+    windowState();
+    document.addEventListener('scroll', windowState)
   })
   
   return (
