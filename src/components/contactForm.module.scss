@@ -10,14 +10,27 @@
   border-radius: 5px;
   padding: 10px;
   margin: 10px 0 25px;
+
+  &:hover {
+    border-color: #aaa;
+  }
+
+  &:focus {
+    border-color: #1a1a1a;
+  }
 }
 
 .button {
   margin: 15px 0;
   text-align: center;
-  background-color: #ff0066;
+  background-color: #1a1a1a;
   color: white;
   border: transparent;
   padding: 30px 50px;
   cursor: pointer;
+  transition: background 0.2s;
+
+  &:hover, &:focus {
+    background-color: #ff0066;
+  }
 }
