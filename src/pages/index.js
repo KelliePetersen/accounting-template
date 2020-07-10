@@ -7,7 +7,7 @@ import About from "../components/about"
 import Services from "../components/services"
 import Features from "../components/features"
 import Slideshow from "../components/slideshow"
-import Contact from '../components/Contact'
+import Contact from '../components/contact'
 
 
 const IndexPage = () => (
