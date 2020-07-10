@@ -120,9 +120,12 @@
     }
     @include respond-to('tablet-large') {
       background-color: #ff0066;
-  
+      
       &:hover, &:focus {
         background-color: #1a1a1a;
+      }
+      &:hover > .contact, &:focus > .contact {
+        color: white;
       }
     }
   }
