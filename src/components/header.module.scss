@@ -115,6 +115,9 @@
   }
 
   .contactbox {
+    &:hover > .contact, &:focus > .contact {
+      color: #ff0066;
+    }
     @include respond-to('tablet-large') {
       background-color: #ff0066;
   
