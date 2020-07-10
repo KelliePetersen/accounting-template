@@ -17,7 +17,7 @@
 .wrapper {
   width: 100%;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   @include respond-to('tablet-large') {
     justify-content: space-between;
   }
