@@ -1,18 +1,30 @@
 import React from 'react'
+import Carousel from 'nuka-carousel';
 import styles from "./slideshow.module.scss"
 import Image from "./image"
 
 
-const Slideshow = () => (
+const Slideshow = () => {
+  
+  return (
   <div className={styles.slideshow}>
-    <div className={styles.container}>
+    <Carousel 
+      className={styles.container}
+      renderCenterLeftControls={null}
+      renderCenterRightControls={null}
+      renderBottomCenterControls={null}
+      renderBottomLeftControls={({ previousSlide }) => (
+        <button className={styles.leftarrow} onClick={previousSlide}>&larr;</button>
+      )}
+      renderBottomRightControls={({ nextSlide }) => (
+        <button className={styles.rightarrow} onClick={nextSlide}>&rarr;</button>
+      )}
+    >
       <Image />
-    </div>
-    <div className={styles.nav}>
-      <button className={styles.leftarrow}>&larr;</button>
-      <button className={styles.rightarrow}>&rarr;</button>
-    </div>
+      <Image />
+      <Image />
+    </Carousel>
   </div>
-)
+)}
 
 export default Slideshow
