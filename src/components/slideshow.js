@@ -1,10 +1,15 @@
-import React from 'react'
+import React, {useEffect } from 'react'
 import Carousel from 'nuka-carousel';
 import styles from "./slideshow.module.scss"
 import Image from "./image"
 
 
 const Slideshow = () => {
+  useEffect(() => {
+    let leftArrow = document.querySelector('.slider-control-bottomleft');
+    leftArrow.style.right = '67px';
+    leftArrow.style.left = 'auto';
+  }, [])
   
   return (
   <div className={styles.slideshow}>
