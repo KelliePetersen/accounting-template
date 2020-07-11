@@ -13,7 +13,8 @@ const Slideshow = () => {
   
   return (
   <div className={styles.slideshow}>
-    <Carousel 
+    <Carousel
+      style={{height: '100%'}}
       className={styles.container}
       renderCenterLeftControls={null}
       renderCenterRightControls={null}
