@@ -8,7 +8,7 @@ const Hero = () => {
     <div className={styles.hero}>
       <Image />
       <div className={styles.container}>
-        <h1 className={styles.heading}>This be where our super amazing title goes.</h1>
+        <h1 className={styles.heading}>Chartered accountants focused on prosperity and growth.</h1>
         <Link className={styles.button} to="#services">LEARN MORE</Link>
       </div>
     </div>
