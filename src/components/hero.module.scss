@@ -37,25 +37,10 @@
   font-size: 1rem;
   letter-spacing: 1px;
   background-color: #ff0066;
-
-  @include respond-to('tablet-large') {
-    background-color: transparent;
+  outline-width: 3px;
+  outline-color: #ff0066;
   
-    &::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 25%;
-      height: 100%;
-      background-color: #ff0066;
-      z-index: -1;
-      transition: transform 0.5s;
-      transform-origin: left;
-    }
-  
-    &:hover::before, &:focus::before {
-      transform: scaleX(4);
-    }
+  &:hover {
+    background-color: #fc1d76;
   }
 }
