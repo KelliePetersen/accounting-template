@@ -6,8 +6,8 @@ const About = () => (
       <div className={`wrapper ${styles.wrapper}`}>
         <div>
           <h2>We've been in this game for 40 years.</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam neque lorem, vulputate vitae ullamcorper
-            vitae, mattis finibus enim. Sed blandit neque leo, eu facilisis libero mollis ut. </p>
+          <p>We've helped over 1000 people shape their financial success and reach their personal and business financial goals. 
+            Whether you are an individual, in business or retired, we will work with you towards achieving your goals. </p>
         </div>
         <div>
           <div className={styles.grid}>
