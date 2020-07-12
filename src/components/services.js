@@ -10,20 +10,20 @@ const Services = () => {
           <div>
             <div className={styles.icon}></div>
             <h4 className={styles.subheading}>Accounting</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam neque lorem, 
-              vulputate vitae ullamcorper vitae, mattis finibus enim. </p>
+            <p>We ensure that your tax returns meet reporting and compliance requirements while
+              minimising the impact of taxes on your bottom line.</p>
           </div>
           <div>
             <div className={styles.icon}></div>
             <h4 className={styles.subheading}>Auditing</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam neque lorem, 
-              vulputate vitae ullamcorper vitae, mattis finibus enim. </p>
+            <p>Our dedicated team ensures minimised business risks. We give credibility to your
+              financial statements, and provide constructive outcomes and solutions.</p>
           </div>
           <div>
             <div className={styles.icon}></div>
             <h4 className={styles.subheading}>Advisors</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam neque lorem, 
-              vulputate vitae ullamcorper vitae, mattis finibus enim. </p>
+            <p>We advise clients on successful business structures and strategies, financial viability, 
+              diversification, planned growth and more.</p>
           </div>
         </div>
       </div>
