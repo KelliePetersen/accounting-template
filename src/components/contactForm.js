@@ -12,6 +12,7 @@ const ContactForm = () => (
     <label htmlFor="message">Message
       <textarea className={styles.input} name="message" id="message" rows="5" required></textarea>
     </label>
+    <input type="text" style={{visibility: "hidden"}} value="" name="_empty_field"/>
     <button type="submit" className={styles.button}>Send message</button>
   </form>
 )
