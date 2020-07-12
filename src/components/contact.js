@@ -6,7 +6,7 @@ const Contact = () => (
   <section className={styles.contact} id="contact">
     <div className='wrapper'>
         <h2 className={styles.heading}>Ready? Let's work together.</h2>
-        <ContactForm></ContactForm>
+        <ContactForm action="https://www.flexyform.com/f/10efb9385a906641cd00edc07c0dc32d01f3faa6"></ContactForm>
     </div>
   </section>
 )
