@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from "./about.module.scss"
+import Image from "./image"
 
 const About = () => (
     <section className="section"id="about">
@@ -11,12 +12,12 @@ const About = () => (
         </div>
         <div>
           <div className={styles.grid}>
-            <div></div>
-            <div></div>
+            <Image filename="hero.jpg" />
+            <Image filename="hero.jpg" />
           </div>
           <div className={`${styles.grid} ${styles.grid2}`}>
-            <div></div>
-            <div></div>
+            <Image filename="hero.jpg" />
+            <Image filename="hero.jpg" />
           </div>
         </div>
       </div>

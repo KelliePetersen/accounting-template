@@ -26,9 +26,9 @@ const Slideshow = () => {
         <button className={styles.rightarrow} onClick={nextSlide}>&rarr;</button>
       )}
     >
-      <Image />
-      <Image />
-      <Image />
+      <Image filename="hero.jpg" />
+      <Image filename="hero.jpg" />
+      <Image filename="hero.jpg" />
     </Carousel>
   </div>
 )}
