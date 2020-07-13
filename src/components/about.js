@@ -12,12 +12,12 @@ const About = () => (
         </div>
         <div>
           <div className={styles.grid}>
-            <Image filename="hero.jpg" />
-            <Image filename="hero.jpg" />
+            <Image filename="grid-1.jpg" />
+            <Image filename="grid-3.jpg" />
           </div>
           <div className={`${styles.grid} ${styles.grid2}`}>
-            <Image filename="hero.jpg" />
-            <Image filename="hero.jpg" />
+            <Image filename="grid-2.jpg" />
+            <Image filename="grid-4.jpg" />
           </div>
         </div>
       </div>
