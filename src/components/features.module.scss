@@ -19,6 +19,9 @@
   column-gap: 30px;
   row-gap: 30px;
   margin-top: 80px;
+  @include respond-to('desktop') {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
 
 .card {
