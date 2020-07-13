@@ -14,7 +14,7 @@ const Slideshow = () => {
   return (
   <div className={styles.slideshow}>
     <Carousel
-      style={{height: '100%'}}
+      style={{height: '100%', maxHeight: '550px'}}
       className={styles.container}
       renderCenterLeftControls={null}
       renderCenterRightControls={null}
@@ -26,9 +26,9 @@ const Slideshow = () => {
         <button className={styles.rightarrow} onClick={nextSlide}>&rarr;</button>
       )}
     >
-      <Image filename="hero.jpg" />
-      <Image filename="hero.jpg" />
-      <Image filename="hero.jpg" />
+      <Image filename="slideshow-1.jpg" />
+      <Image filename="slideshow-2.jpg" />
+      <Image filename="slideshow-3.jpg" />
     </Carousel>
   </div>
 )}
