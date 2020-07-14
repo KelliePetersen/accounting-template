@@ -8,19 +8,19 @@ const Services = () => {
         <h2>Our Services.</h2>
         <div className={styles.grid}>
           <div>
-            <div className={styles.icon}></div>
+            <p className={styles.icon}>01.</p>
             <h4 className={styles.subheading}>Accounting</h4>
             <p>We ensure that your tax returns meet reporting and compliance requirements while
               minimising the impact of taxes on your bottom line.</p>
           </div>
           <div>
-            <div className={styles.icon}></div>
+            <p className={styles.icon}>02.</p>
             <h4 className={styles.subheading}>Auditing</h4>
-            <p>Our dedicated team ensures minimised business risks. We give credibility to your
-              financial statements, and provide constructive outcomes and solutions.</p>
+            <p>Our team delivers minimised business risks. We lend credibility to your
+              financial statements, and provide constructive solutions.</p>
           </div>
           <div>
-            <div className={styles.icon}></div>
+            <p className={styles.icon}>03.</p>
             <h4 className={styles.subheading}>Advisors</h4>
             <p>We advise clients on successful business structures and strategies, financial viability, 
               diversification, planned growth and more.</p>
