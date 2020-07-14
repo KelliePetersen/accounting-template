@@ -3,7 +3,12 @@ import styles from "./about.module.scss"
 import Image from "./image"
 
 const About = () => (
-    <section className="section"id="about">
+    <section className="section" id="about" 
+      data-sal="fade"
+      data-sal-delay="100"
+      data-sal-duration="1000"
+      data-sal-easing="ease"
+    >
       <div className={`wrapper ${styles.wrapper}`}>
         <div>
           <h2>Assisting people and businesses for over 60 years.</h2>

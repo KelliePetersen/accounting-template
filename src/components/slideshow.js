@@ -12,7 +12,11 @@ const Slideshow = () => {
   }, [])
   
   return (
-  <div className={styles.slideshow}>
+  <div className={styles.slideshow}
+    data-sal="slide-up"
+    data-sal-duration="500"
+    data-sal-easing="ease"
+  >
     <Carousel
       style={{height: '100%', maxHeight: '550px'}}
       className={styles.container}
