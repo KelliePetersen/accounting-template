@@ -7,9 +7,14 @@ const Features = () => (
       <h2>Our specialisations.</h2>
       <div className={styles.grid}>
         <div className={styles.card}>
-          <div className={`${styles.icon} ${styles.taxation}`}></div>
-          <h4 className={styles.subheading}>Taxation</h4>
-          <p className={styles.text}>Income Tax, FBT, GST</p>
+          <div className={`${styles.icon} ${styles.business}`}></div>
+          <h4 className={styles.subheading}>Business Advisory</h4>
+          <p className={styles.text}>Guidance & Support</p>
+        </div>
+        <div className={styles.card}>
+          <div className={`${styles.icon} ${styles.super}`}></div>
+          <h4 className={styles.subheading}>Super&shy;annuation</h4>
+          <p className={styles.text}>Self managed funds</p>
         </div>
         <div className={styles.card}>
           <div className={`${styles.icon} ${styles.investment}`}></div>
@@ -17,9 +22,9 @@ const Features = () => (
           <p className={styles.text}>Stock management</p>
         </div>
         <div className={styles.card}>
-          <div className={`${styles.icon} ${styles.super}`}></div>
-          <h4 className={styles.subheading}>Super&shy;annuation</h4>
-          <p className={styles.text}>Self managed funds</p>
+          <div className={`${styles.icon} ${styles.taxation}`}></div>
+          <h4 className={styles.subheading}>Taxation</h4>
+          <p className={styles.text}>Income Tax, FBT, GST</p>
         </div>
         <div className={styles.card}>
           <div className={`${styles.icon} ${styles.estate}`}></div>
@@ -35,11 +40,6 @@ const Features = () => (
           <div className={`${styles.icon} ${styles.acquisitions}`}></div>
           <h4 className={styles.subheading}>Acquisitions</h4>
           <p className={styles.text}>Smooth change of ownership</p>
-        </div>
-        <div className={styles.card}>
-          <div className={`${styles.icon} ${styles.business}`}></div>
-          <h4 className={styles.subheading}>Business Advisory</h4>
-          <p className={styles.text}>Guidance & Support</p>
         </div>
         <div className={styles.card}>
           <div className={`${styles.icon} ${styles.finance}`}></div>
