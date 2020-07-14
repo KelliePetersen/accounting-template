@@ -22,7 +22,7 @@ const Features = () => (
         <div className={styles.card}
           data-sal="slide-up"
           data-sal-duration="500"
-          data-sal-delay="100"
+          data-sal-delay="200"
           data-sal-easing="ease"
         >
           <div className={`${styles.icon} ${styles.super}`}></div>
@@ -32,7 +32,7 @@ const Features = () => (
         <div className={styles.card}
           data-sal="slide-up"
           data-sal-duration="500"
-          data-sal-delay="200"
+          data-sal-delay="400"
           data-sal-easing="ease"
         >
           <div className={`${styles.icon} ${styles.investment}`}></div>
@@ -42,7 +42,7 @@ const Features = () => (
         <div className={styles.card}
           data-sal="slide-up"
           data-sal-duration="500"
-          data-sal-delay="300"
+          data-sal-delay="600"
           data-sal-easing="ease"
         >
           <div className={`${styles.icon} ${styles.taxation}`}></div>
@@ -61,7 +61,7 @@ const Features = () => (
         <div className={styles.card}
           data-sal="slide-up"
           data-sal-duration="500"
-          data-sal-delay="100"
+          data-sal-delay="200"
           data-sal-easing="ease"
         >
           <div className={`${styles.icon} ${styles.startups}`}></div>
@@ -71,7 +71,7 @@ const Features = () => (
         <div className={styles.card}
           data-sal="slide-up"
           data-sal-duration="500"
-          data-sal-delay="200"
+          data-sal-delay="400"
           data-sal-easing="ease"
         >
           <div className={`${styles.icon} ${styles.acquisitions}`}></div>
@@ -81,7 +81,7 @@ const Features = () => (
         <div className={styles.card}
           data-sal="slide-up"
           data-sal-duration="500"
-          data-sal-delay="300"
+          data-sal-delay="600"
           data-sal-easing="ease"
         >
           <div className={`${styles.icon} ${styles.finance}`}></div>
