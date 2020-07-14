@@ -4,7 +4,7 @@ import Image from "./image"
 
 const About = () => (
     <section className="section" id="about" 
-      data-sal="fade"
+      data-sal="slide-up"
       data-sal-delay="100"
       data-sal-duration="1000"
       data-sal-easing="ease"
