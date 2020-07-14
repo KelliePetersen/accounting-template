@@ -19,8 +19,8 @@ const Footer = ({ siteTitle }) => (
             <li><Link to="/#contact">Contact</Link></li>
           </ul>
         </nav>
-        <p className={styles.text}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam neque lorem, 
-          vulputate mattis finibus enim.</p>
+        <p className={styles.text}>Heron Bookkeeping has proudly been serving the Capricorn Coast
+        since 1953.</p>
         <Link className={styles.toplink} to="#">&uarr;</Link>
       </div>
     </div>
