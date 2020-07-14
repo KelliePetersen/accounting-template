@@ -47,10 +47,6 @@
   &:hover {
     transform: scale(1.025);
     box-shadow: 0px 2px 20px #ddd;
-
-    .icon {
-      background-color: #ff0066;
-    }
   }
 
   &:hover::before {
@@ -61,9 +57,9 @@
 .icon {
   width: 80px;
   height: 80px;
-  background-color: #444;
   margin: 10px auto 40px;
   transition: background 0.2s;
+  background-size: contain;
 }
 
 .subheading {
@@ -77,4 +73,31 @@
   font-size: 0.875rem;
   line-height: 1.5;
   margin-bottom: 10px;
+}
+
+
+
+.taxation {
+  background-image: url('../images/icons/tax.svg');
+}
+.investment {
+  background-image: url('../images/icons/money.svg');
+}
+.super {
+  background-image: url('../images/icons/tax2.svg');
+}
+.estate {
+  background-image: url('../images/icons/accounting.svg');
+}
+.startups {
+  background-image: url('../images/icons/presentation.svg');
+}
+.acquisitions {
+  background-image: url('../images/icons/return-on-investment.svg');
+}
+.business {
+  background-image: url('../images/icons/strategy.svg');
+}
+.finance {
+  background-image: url('../images/icons/tax.svg');
 }
