@@ -10,83 +10,99 @@ const Features = () => (
           data-sal-easing="ease"
       >Our specialisations.</h2>
       <div className={styles.grid}>
-        <div className={styles.card}
+        <div
           data-sal="slide-up"
           data-sal-duration="500"
           data-sal-easing="ease"
         >
-          <div className={`${styles.icon} ${styles.business}`}></div>
-          <h4 className={styles.subheading}>Business Advisory</h4>
-          <p className={styles.text}>Guidance & Support</p>
+          <div className={styles.card}>
+            <div className={`${styles.icon} ${styles.business}`}></div>
+            <h4 className={styles.subheading}>Business Advisory</h4>
+            <p className={styles.text}>Guidance & Support</p>
+          </div>
         </div>
-        <div className={styles.card}
+        <div
           data-sal="slide-up"
           data-sal-duration="500"
           data-sal-delay="200"
           data-sal-easing="ease"
         >
-          <div className={`${styles.icon} ${styles.super}`}></div>
-          <h4 className={styles.subheading}>Super&shy;annuation</h4>
-          <p className={styles.text}>Self managed funds</p>
+          <div className={styles.card}>
+            <div className={`${styles.icon} ${styles.super}`}></div>
+            <h4 className={styles.subheading}>Super&shy;annuation</h4>
+            <p className={styles.text}>Self managed funds</p>
+          </div>
         </div>
-        <div className={styles.card}
+        <div
           data-sal="slide-up"
           data-sal-duration="500"
           data-sal-delay="400"
           data-sal-easing="ease"
         >
-          <div className={`${styles.icon} ${styles.investment}`}></div>
-          <h4 className={styles.subheading}>Investment</h4>
-          <p className={styles.text}>Stock management</p>
+          <div className={styles.card}>
+            <div className={`${styles.icon} ${styles.investment}`}></div>
+            <h4 className={styles.subheading}>Investment</h4>
+            <p className={styles.text}>Stock management</p>
+          </div>
         </div>
-        <div className={styles.card}
+        <div
           data-sal="slide-up"
           data-sal-duration="500"
           data-sal-delay="600"
           data-sal-easing="ease"
         >
-          <div className={`${styles.icon} ${styles.taxation}`}></div>
-          <h4 className={styles.subheading}>Taxation</h4>
-          <p className={styles.text}>Income Tax, FBT, GST</p>
+          <div className={styles.card}>
+            <div className={`${styles.icon} ${styles.taxation}`}></div>
+            <h4 className={styles.subheading}>Taxation</h4>
+            <p className={styles.text}>Income Tax, FBT, GST</p>
+          </div>
         </div>
-        <div className={styles.card}
+        <div
           data-sal="slide-up"
           data-sal-duration="500"
           data-sal-easing="ease"
         >
-          <div className={`${styles.icon} ${styles.estate}`}></div>
-          <h4 className={styles.subheading}>Estate Planning</h4>
-          <p className={styles.text}>Inheritance & Succession</p>
+          <div className={styles.card}>
+            <div className={`${styles.icon} ${styles.estate}`}></div>
+            <h4 className={styles.subheading}>Estate Planning</h4>
+            <p className={styles.text}>Inheritance & Succession</p>
+          </div>
         </div>
-        <div className={styles.card}
+        <div
           data-sal="slide-up"
           data-sal-duration="500"
           data-sal-delay="200"
           data-sal-easing="ease"
         >
-          <div className={`${styles.icon} ${styles.startups}`}></div>
-          <h4 className={styles.subheading}>Start-Ups</h4>
-          <p className={styles.text}>Sole, Partnerships & Companies</p>
+          <div className={styles.card}>
+            <div className={`${styles.icon} ${styles.startups}`}></div>
+            <h4 className={styles.subheading}>Start-Ups</h4>
+            <p className={styles.text}>Sole, Partnerships & Companies</p>
+          </div>
         </div>
-        <div className={styles.card}
+        <div
           data-sal="slide-up"
           data-sal-duration="500"
           data-sal-delay="400"
           data-sal-easing="ease"
         >
-          <div className={`${styles.icon} ${styles.acquisitions}`}></div>
-          <h4 className={styles.subheading}>Acquisitions</h4>
-          <p className={styles.text}>Smooth change of ownership</p>
+          <div className={styles.card}>
+            <div className={`${styles.icon} ${styles.acquisitions}`}></div>
+            <h4 className={styles.subheading}>Acquisitions</h4>
+            <p className={styles.text}>Smooth change of ownership</p>
+          </div>
         </div>
-        <div className={styles.card}
+        <div
           data-sal="slide-up"
           data-sal-duration="500"
           data-sal-delay="600"
           data-sal-easing="ease"
         >
-          <div className={`${styles.icon} ${styles.finance}`}></div>
-          <h4 className={styles.subheading}>Finance & Insurance</h4>
-          <p className={styles.text}>Advice & Guidance</p>
+          <div className={styles.card}>
+            <div className={`${styles.icon} ${styles.finance}`}></div>
+            <h4 className={styles.subheading}>Finance & Insurance</h4>
+            <p className={styles.text}>Advice & Guidance</p>
+          </div>
         </div>
       </div>
     </div>
