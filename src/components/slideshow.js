@@ -30,9 +30,9 @@ const Slideshow = () => {
         <button className={styles.rightarrow} onClick={nextSlide}>&rarr;</button>
       )}
     >
-      <Image filename="slideshow-1.jpg" />
-      <Image filename="slideshow-2.jpg" />
-      <Image filename="slideshow-3.jpg" />
+      <Image filename="slideshow-1.jpg" styling={{minHeight: '400px', height: '70vh', maxHeight: '550px'}} />
+      <Image filename="slideshow-2.jpg" styling={{minHeight: '400px', height: '70vh', maxHeight: '550px'}} />
+      <Image filename="slideshow-3.jpg" styling={{minHeight: '400px', height: '70vh', maxHeight: '550px'}}  />
     </Carousel>
   </div>
 )}
