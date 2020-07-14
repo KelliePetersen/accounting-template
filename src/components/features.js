@@ -4,7 +4,7 @@ import styles from './features.module.scss'
 const Features = () => (
   <section className={styles.features} id='features'>
     <div className="wrapper">
-      <h2>Our specialisations.</h2>
+      <h2 style={{textAlign: 'center'}}>Our specialisations.</h2>
       <div className={styles.grid}>
         <div className={styles.card}>
           <div className={`${styles.icon} ${styles.business}`}></div>

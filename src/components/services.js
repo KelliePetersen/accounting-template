@@ -5,7 +5,7 @@ const Services = () => {
   return (
     <section className="section" id='services'>
       <div className="wrapper">
-        <h2>Our Services.</h2>
+        <h2 style={{maxWidth: '750px', lineHeight: '1.4'}}>We focus on helping your business, from idea to launch.</h2>
         <div className={styles.grid}>
           <div>
             <p className={styles.icon}>01.</p>
