@@ -23,19 +23,21 @@
 .heading {
   font-size: 2rem;
   margin-bottom: 50px;
-  line-height: 1.25;
+  line-height: 1.35;
   @include respond-to('tablet-large') {
-    font-size: 3rem;
+    font-size: 2.75rem;
+    margin-bottom: 70px;
   }
 }
 
 .button {
   display: block;
   position: relative;
-  padding: 20px 30px;
+  padding: 20px 40px;
   width: max-content;
   font-size: 1rem;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
+  font-weight: bold;
   background-color: #ff0066;
   outline-width: 3px;
   outline-color: #ff0066;
