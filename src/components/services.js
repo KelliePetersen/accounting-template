@@ -15,8 +15,8 @@ const Services = () => {
         <div className={styles.grid}>
           <div
             data-sal="slide-right"
-            data-sal-delay="200"
-            data-sal-duration="1000"
+            data-sal-delay="300"
+            data-sal-duration="750"
             data-sal-easing="ease"
           >
             <p className={styles.icon}>01.</p>
@@ -26,8 +26,8 @@ const Services = () => {
           </div>
           <div
             data-sal="slide-right"
-            data-sal-delay="400"
-            data-sal-duration="1000"
+            data-sal-delay="650"
+            data-sal-duration="750"
             data-sal-easing="ease"
           >
             <p className={styles.icon}>02.</p>
@@ -37,8 +37,8 @@ const Services = () => {
           </div>
           <div
             data-sal="slide-right"
-            data-sal-delay="600"
-            data-sal-duration="1000"
+            data-sal-delay="1000"
+            data-sal-duration="750"
             data-sal-easing="ease"
           >
             <p className={styles.icon}>03.</p>
