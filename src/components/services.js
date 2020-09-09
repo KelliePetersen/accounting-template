@@ -20,7 +20,7 @@ const Services = () => {
             data-sal-easing="ease"
           >
             <p className={styles.icon}>01.</p>
-            <h4 className={styles.subheading}>Accounting</h4>
+            <h3 className={styles.subheading}>Accounting</h3>
             <p>We ensure that your tax returns meet reporting and compliance requirements while
               minimising the impact of taxes on your bottom line.</p>
           </div>
@@ -31,7 +31,7 @@ const Services = () => {
             data-sal-easing="ease"
           >
             <p className={styles.icon}>02.</p>
-            <h4 className={styles.subheading}>Auditing</h4>
+            <h3 className={styles.subheading}>Auditing</h3>
             <p>Our team delivers minimised business risks. We lend credibility to your
               financial statements, and provide constructive solutions.</p>
           </div>
@@ -42,7 +42,7 @@ const Services = () => {
             data-sal-easing="ease"
           >
             <p className={styles.icon}>03.</p>
-            <h4 className={styles.subheading}>Advisors</h4>
+            <h3 className={styles.subheading}>Advisors</h3>
             <p>We advise clients on successful business structures and strategies, financial viability, 
               diversification, planned growth and more.</p>
           </div>
