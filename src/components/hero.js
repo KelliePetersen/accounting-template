@@ -6,7 +6,7 @@ import Image from "./image"
 const Hero = () => {
   return (
     <div className={styles.hero}>
-      <Image filename="landing.jpg" />
+      <Image filename="landing.jpg" loading="eager" />
       <div className={styles.container}>
         <h1 className={styles.heading}
           data-sal="slide-right"
