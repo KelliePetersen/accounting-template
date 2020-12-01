@@ -18,7 +18,7 @@ const Slideshow = () => {
     data-sal-easing="ease"
   >
     <Carousel
-      style={{height: '100%', maxHeight: '550px'}}
+      style={{height: '100%', maxHeight: '650px'}}
       className={styles.container}
       renderCenterLeftControls={null}
       renderCenterRightControls={null}
@@ -30,9 +30,9 @@ const Slideshow = () => {
         <button className={styles.rightarrow} onClick={nextSlide}>&rarr;</button>
       )}
     >
-      <Image filename="slideshow-1.jpg" styling={{minHeight: '400px', height: '70vh', maxHeight: '550px'}} />
-      <Image filename="slideshow-2.jpg" styling={{minHeight: '400px', height: '70vh', maxHeight: '550px'}} />
-      <Image filename="slideshow-3.jpg" styling={{minHeight: '400px', height: '70vh', maxHeight: '550px'}}  />
+      <Image filename="slideshow-1.jpg" styling={{minHeight: '400px', height: '70vh', maxHeight: '650px'}} />
+      <Image filename="slideshow-2.jpg" styling={{minHeight: '400px', height: '70vh', maxHeight: '650px'}} />
+      <Image filename="slideshow-3.jpg" styling={{minHeight: '400px', height: '70vh', maxHeight: '650px'}}  />
     </Carousel>
   </div>
 )}
