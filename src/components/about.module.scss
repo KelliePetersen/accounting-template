@@ -3,14 +3,14 @@
 .wrapper {
   margin-left: 10%;
   max-width: 550px;
-  @include respond-to('desktop') {
+  @include respond-to('laptop') {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 40% calc(60% - 60px);
     column-gap: 60px;
     max-width: 100%;
   }
-  @include respond-to('widescreen') {
+  @include respond-to('desktop') {
     margin: 0 250px;
   }
 }
@@ -22,7 +22,7 @@
   height: 225px;
   margin-bottom: 20px;
   width: 100%;
-  @include respond-to('desktop') {
+  @include respond-to('laptop') {
     display: grid;
   }
 

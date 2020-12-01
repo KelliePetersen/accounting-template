@@ -18,15 +18,20 @@
     left: 250px;
     transform: translateY(-50%);
   }
+  @include respond-to('widescreen') {
+    max-width: 800px;
+  }
 }
 
 .heading {
   font-size: 2rem;
   margin-bottom: 50px;
   line-height: 1.35;
-  @include respond-to('tablet-large') {
+  @include respond-to('tablet') {
     font-size: 2.75rem;
-    margin-bottom: 70px;
+  }
+  @include respond-to('widescreen') {
+    font-size: 4rem;
   }
 }
 

@@ -9,7 +9,7 @@
   @include respond-to('tablet-large') {
     padding: 100px 10%;
   }
-  @include respond-to('desktop') {
+  @include respond-to('laptop') {
     padding: 100px 250px;
   }
 }

@@ -6,7 +6,7 @@
   @include respond-to('tablet-large') {
     margin: 50px 0 150px;
   }
-  @include respond-to('desktop') {
+  @include respond-to('laptop') {
     margin: 100px 0 200px;
   }
 }
