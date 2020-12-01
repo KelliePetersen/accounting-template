@@ -11,13 +11,9 @@
     max-width: 1420px;
   }
   @include respond-to('desktop') {
-    width: calc(100% - 500px);
     column-gap: 100px;
     grid-template-columns: 40% calc(60% - 100px);
     align-items: center;
-  }
-  @include respond-to('widescreen') {
-    margin: 0 auto;
   }
 }
 
@@ -42,10 +38,4 @@
 
 .grid2 {
   grid-template-columns: 1fr 1fr;
-}
-
-.paragraph {
-  @include respond-to('widescreen') {
-    font-size: 1.125rem;
-  }
 }
