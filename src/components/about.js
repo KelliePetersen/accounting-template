@@ -11,8 +11,8 @@ const About = () => (
     >
       <div className={`wrapper ${styles.wrapper}`}>
         <div>
-          <h2>Assisting people and businesses for over 60 years.</h2>
-          <p>We've helped over 1000 people shape their financial success and reach their personal and business financial goals. 
+          <h2 className={styles.heading}>Assisting people and businesses for over 60 years.</h2>
+          <p className={styles.paragraph}>We've helped over 1000 people shape their financial success and reach their personal and business financial goals. 
             Whether you are an individual, in business or retired, we will work with you towards achieving your goals. </p>
         </div>
         <div>

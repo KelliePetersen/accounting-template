@@ -8,10 +8,16 @@
     display: grid;
     grid-template-columns: 40% calc(60% - 60px);
     column-gap: 60px;
-    max-width: 100%;
+    max-width: 1420px;
   }
   @include respond-to('desktop') {
-    margin: 0 250px;
+    width: calc(100% - 500px);
+    column-gap: 100px;
+    grid-template-columns: 40% calc(60% - 100px);
+    align-items: center;
+  }
+  @include respond-to('widescreen') {
+    margin: 0 auto;
   }
 }
 
@@ -25,6 +31,9 @@
   @include respond-to('laptop') {
     display: grid;
   }
+  @include respond-to('widescreen') {
+    height: 300px;
+  }
 
   & > div {
     background-color: #333;
@@ -33,4 +42,10 @@
 
 .grid2 {
   grid-template-columns: 1fr 1fr;
+}
+
+.paragraph {
+  @include respond-to('widescreen') {
+    font-size: 1.125rem;
+  }
 }
