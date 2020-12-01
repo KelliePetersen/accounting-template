@@ -13,6 +13,9 @@
   @include respond-to('tablet-large') {
     margin-top: 80px;
   }
+  @include respond-to('widescreen') {
+    column-gap: 120px;
+  }
 }
 
 .icon {
