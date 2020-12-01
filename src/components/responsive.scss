@@ -7,6 +7,12 @@ h2 {
   }
 }
 
+p {
+  @include respond-to('widescreen') {
+    font-size: 1.125rem;
+  }
+}
+
 .section {
   padding-top: 100px;
   @include respond-to('tablet-large') {
@@ -25,7 +31,7 @@ h2 {
     max-width: 100%;
   }
   @include respond-to('desktop') {
-    margin: 0 250px;
-    width: auto;
+    width: calc(100% - 500px);
+    max-width: 1420px;
   }
 }
